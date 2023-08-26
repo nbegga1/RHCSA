@@ -1,14 +1,14 @@
-- Schedule tasks using at and cron
+## Schedule tasks using at and cron
 
-- Start and stop services and configure services to start automatically at boot
+## Start and stop services and configure services to start automatically at boot
 
-- Configure systems to boot into a specific target automatically
+## Configure systems to boot into a specific target automatically
 
-- Configure time service clients
+## Configure time service clients
     - `timedatectl`
     - `timedatectl set-timezone <timezone>`
 
 
-- Install and update software packages from Red Hat Network, a remote repository, or from the local file system
+## Install and update software packages from Red Hat Network, a remote repository, or from the local file system
 
-- Modify the system bootloader
+## Modify the system bootloader
