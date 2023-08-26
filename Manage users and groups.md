@@ -1,6 +1,6 @@
 ## Create, delete, and modify local user accounts
 
-### Reset the root password
+#### Reset the root password
 - On boot screen select rescue mode. Then press `e`
 - Go to the end of the line that starts with "linux"
 - Add `init=/bin/bash`
