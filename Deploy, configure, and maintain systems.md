@@ -12,8 +12,10 @@
 ## Install and update software packages from Red Hat Network, a remote repository, or from the local file system
 - `dnf search/info nano`
 - `dnf install/remove nano`
+- `dnf localinstall nano.....rpm` (local file)
 - `dnf list na*`
-- `dnf repolist all`
-- `dnf repoinfo`
+- `dnf repolist all` & `dnf repoinfo`
+- `dnf groups list` & `dnf group install "<groupname>"`
+- `dnf history list` & `dnf history undo/do <history-number>`
 
 ## Modify the system bootloader
