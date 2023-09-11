@@ -29,4 +29,13 @@ metadata_expire=-1
 
 # if there is a gpgkey given add gpgkey=...
 ```
+- Run `dnf clean all`
+- Run `dnf repolist enables`
+- Run `dnf update`
+
+### Create own repo
+- `sudo subscription-manager register`
+- `sudo dnf config-manager --enable AppStream`
+- `sudo dnf config-manager --enable BaseOS`
+
 ## Modify the system bootloader
