@@ -26,5 +26,7 @@ name=BaseOS
 baseurl=http://server/isorepo/BaseOS/
 gpgcheck=0
 metadata_expire=-1
+
+# if there is a gpgkey given add gpgkey=...
 ```
 ## Modify the system bootloader
