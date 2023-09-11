@@ -37,5 +37,6 @@ metadata_expire=-1
 - `sudo subscription-manager register`
 - `sudo dnf config-manager --enable AppStream`
 - `sudo dnf config-manager --enable BaseOS`
+- in `/etc/fstab` add `/dev/sr0        /var/www/html/isorepo   iso9660         defaults        0 0`
 
 ## Modify the system bootloader
