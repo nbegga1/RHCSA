@@ -17,5 +17,13 @@
 - `dnf repolist all` & `dnf repoinfo`
 - `dnf groups list` & `dnf group install "<groupname>"`
 - `dnf history list` & `dnf history undo/do <history-number>`
+### Get repo from remote
+- Create `BaseOS.repo` and `AppStream.repo` in `/etc/yum.repos.d/` folder.
+- The files should have the following structure:
+[BaseOS]
+name=BaseOS
+baseurl=http://server/isorepo/BaseOS/
+gpgcheck=0
+metadata_expire=-1
 
 ## Modify the system bootloader
