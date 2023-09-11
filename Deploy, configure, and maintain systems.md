@@ -38,5 +38,8 @@ metadata_expire=-1
 - `sudo dnf config-manager --enable AppStream`
 - `sudo dnf config-manager --enable BaseOS`
 - in `/etc/fstab` add `/dev/sr0        /var/www/html/isorepo   iso9660         defaults        0 0`
+OR
+- `mount -o loop /.../Downloads/rhel-baseos-9.0-x86_64-dvd.iso /var/www/html/isorepo`
 
+NOTE: if using http to serve repo. Make sure httpd is enabled and firewall allows http to serve on port 80
 ## Modify the system bootloader
