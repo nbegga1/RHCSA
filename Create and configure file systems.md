@@ -1,11 +1,11 @@
-- Create, mount, unmount, and use vfat, ext4, and xfs file systems
+## Create, mount, unmount, and use vfat, ext4, and xfs file systems
 
-- Mount and unmount network file systems using NFS
+## Mount and unmount network file systems using NFS
 
-- Configure autofs
+## Configure autofs
 
-- Extend existing logical volumes
+## Extend existing logical volumes
 
-- Create and configure set-GID directories for collaboration
+## Create and configure set-GID directories for collaboration
 
-- Diagnose and correct file permission problems
+## Diagnose and correct file permission problems
