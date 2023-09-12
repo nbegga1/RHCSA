@@ -1,7 +1,7 @@
-- Configure IPv4 and IPv6 addresses
+## Configure IPv4 and IPv6 addresses
 
-- Configure hostname resolution
+## Configure hostname resolution
 
-- Configure network services to start automatically at boot
+## Configure network services to start automatically at boot
 
-- Restrict network access using firewall-cmd/firewall
+## Restrict network access using firewall-cmd/firewall
