@@ -30,6 +30,7 @@ metadata_expire=-1
 # if there is a gpgkey given add gpgkey=...
 ```
 - Run `dnf clean all`
+- Run `subscription-manager clean`
 - Run `dnf repolist enables`
 - Run `dnf update`
 
